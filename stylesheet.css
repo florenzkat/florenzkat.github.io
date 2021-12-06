@@ -1,0 +1,188 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    height: 30px;
+  }
+  
+  nav ul {
+    display: block;
+    position: relative;
+    z-index: 100;
+  }
+  
+  nav ul li {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li ul {
+    display: none;
+  }
+  
+  nav ul li a {
+    width: 587px;
+    height: 30px;
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  nav ul li a:hover {
+    background-color: yellow;
+    color: black;
+  }
+  
+  nav ul li:hover ul {
+    position: absolute;
+    top: 30px;
+    display: block;
+    width: 100px;
+  }
+  
+  nav ul li:hover ul li {
+    display: block;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.slide {
+    width: 11150px;
+    height: 100vw;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+.Spain {
+    background-image: url(https://i1.lensdump.com/i/gN7EL9.png);
+    background-repeat: no-repeat;
+    background-size: auto 58.5%;
+}
+.translate {
+    font-family: 'Courier New', Courier, monospace;
+    color: #300a65;
+    background-color: #ef8f1a;
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    left: 100px;
+    top: 50%;
+}
+.whos-beauty {
+    font-family: 'Courier New', Courier, monospace;
+    color: #e00156;
+    background-color: #aae415;
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    left: 3225px;
+    top: 44%;
+}
+.who-is-she {
+    font-family: 'Courier New', Courier, monospace;
+    color: #f7f70b;
+    background-color: #d889b3;
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    left: 5300px;
+    top: 26%;
+}
+.America {
+    background-image: url(https://i2.lensdump.com/i/gN7ka2.png);
+    background-repeat: no-repeat;
+    background-size: auto 58.5%;
+}
+.whos-confidence {
+    font-family: 'Courier New', Courier, monospace;
+    color: #2cbd14;
+    background-color: #d90ab5;
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    left: 12900px;
+    top: 30%;
+}
+.translate2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff7271;
+    background-color: #338d3c;
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    left: 15855px;
+    top: 29%;
+}
+.whose-beauty {
+    font-family: 'Courier New', Courier, monospace;
+    color: #6049c3;
+    background-color: #190d7a;
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    left: 20525px;
+    top: 40%;
+}
+.Japan {
+    background-image: url(https://i.lensdump.com/i/gN7JlC.png);
+    background-repeat: no-repeat;
+    background-size: auto 58.5%;
+}
+.whos-is-she2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #0c07bd;
+    background-color: #f7f70b;
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    left: 23120px;
+    top: 7%;
+}
+.protect {
+    font-family: 'Courier New', Courier, monospace;
+    color: #0f10de;
+    background-color: #e95c26;
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    left: 25760px;
+    top: 37%;
+}
+.how-long {
+    font-family: 'Courier New', Courier, monospace;
+    color: #b91035;
+    background-color: #28aae2;
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    left: 29025px;
+    top: 28%;
+}
+.outer-wrapper {
+    width: fit-content;
+    height: fit-content;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
